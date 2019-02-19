@@ -9,3 +9,4 @@ notebooks/.ipynb_checkpoints
 notebooks/__pycache__
 retrain.py
 notebooks/output
+android/.idea
