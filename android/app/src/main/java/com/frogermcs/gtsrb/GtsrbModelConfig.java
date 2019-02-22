@@ -17,7 +17,8 @@ public class GtsrbModelConfig {
     public static final int MODEL_INPUT_SIZE = FLOAT_TYPE_SIZE * INPUT_IMG_SIZE_WIDTH * INPUT_IMG_SIZE_HEIGHT * PIXEL_SIZE;
     public static final int IMAGE_MEAN = 0;
     public static final float IMAGE_STD = 255.0f;
-    
+
+    //This list can be taken from notebooks/output/labels_readable.txt 
     public static final List<String> OUTPUT_LABELS = Collections.unmodifiableList(
             Arrays.asList(
                     "20_speed",

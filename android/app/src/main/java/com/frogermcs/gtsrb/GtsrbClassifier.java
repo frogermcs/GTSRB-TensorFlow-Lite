@@ -68,8 +68,7 @@ public class GtsrbClassifier {
         }
         return byteBuffer;
     }
-
-
+    
     private List<Classification> getSortedResult(float[][] resultsArray) {
         PriorityQueue<Classification> sortedResults = new PriorityQueue<>(
                 MAX_CLASSIFICATION_RESULTS,
